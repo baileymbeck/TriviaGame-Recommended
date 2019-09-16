@@ -12,15 +12,28 @@ var choiceC = document.getElementById("C");
 var scoreCounter = document.getElementById("scoreCounter");
 
 let questions = [
-{   question: "how do you take your tea?",
+{   question: "What color is the sky?",
     imgSrc: "", 
-    choiceA:"",
-    choiceB: "",
-    choiceC: "",
-    correct: "A",
-}
+    choiceA:"blue",
+    choiceB: "green",
+    choiceC: "orange",
 
+    correct: "A"
+},
+{   question: "What color is typical grass?",
+    imgSrc: "", 
+    choiceA:"blue",
+    choiceB: "green",
+    choiceC: "orange",
 
+    correct: "B"
+},
+{   question: "What color is a typical traffic cone?",
+    imgSrc: "", 
+    choiceA:"blue",
+    choiceB: "green",
+    choiceC: "orange",
 
-
+    correct: "C"
+},
 ]

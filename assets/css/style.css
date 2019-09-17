@@ -1,6 +1,22 @@
 body{
     background-color: rgb(204,234,242);
+    margin: auto 0;
+}
+h1{
+    font-size: 80px;
+}
+#start{
+    font-size: 40px;
+    margin: 1%;
+    line-height: 1.5;
+    
 }
 div{
     background-color: rgb(221,230,107);
+}
+.container{
+    background-color: rgb(221,230,107);
+    width: 75%;
+    text-align: center;
+    margin: 20% 12%;
 }

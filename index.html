@@ -5,13 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Recommended Trivia</title>
-
 <!-- css links -->
     <link href="./assets/css/reset.css" type="text/css" rel="stylesheet">
 <!-- possible bootstrap css would go here -->
     <link href="./assets/css/style.css" type="text/css" rel="stylesheet">
 </head>
-<body>
+<body>      
+
+    <div class="container">
+        <h1>Simple Trivia!</h1>
+        <button id="start" type="button">Start</button>
+
+        <p style="font-size: 20px;">This game isn't near finished, mostly used to practice.</p>
+
+        <text style="font-size: 2rem; display: none;" >Time:<text id="time">10</text><text />
+        <div id="quiz" style="display: none"></div>
+
+
+    </div>
+<!-- <div class="container">
     <div id="start">Start Quiz</div>
     <div id="quiz" style="display: none;">
     <div id="qImage"><img src="./assets/images/il_794xN-1.1737587355_bggx.jpg"></div>
@@ -32,7 +44,7 @@
     </div>
 
     <div id="scoreContainer" style="display: none;"><img src="./assets/images/il_794xN-1.1737587355_bggx.jpg"><p>50%</p></div>
-
+</div> -->
 
 <!-- js link -->
     <script src="./assets/javascript/game.js"></script>
